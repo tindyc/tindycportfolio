@@ -1,43 +1,126 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Tindy Chan Portfolio
 
-Welcome tindyc,
+First Milestone Project- User Centric Frontend Development- Code Institute
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+This is my portfolio website to showcase my skills and proejcts to prospective employers. To achieve this, I implemented various sections that would allow prospective clients to get a glimpse of who I am, including a section about myself, portfolio to demostrate project that I have done and a contact form.
 
-## Gitpod Reminders
+## Demo 
+---
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+A live demo can be found [here](www.google.coml).
 
-`python3 -m http.server`
+![Image](http://url/a.png)
 
-A blue button should appear to click: *Make Public*,
+## UX
+---
+### User Stories
 
-Another blue button should appear to click: *Open Browser*.
+As an emplyer, I expect to see a demonstration of Tindy's work.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Image](http://url/a.png)
 
-A blue button should appear to click: *Make Public*,
+As a recuiter, I expect to see a updated version of Tindy's resume.
 
-Another blue button should appear to click: *Open Browser*.
+![Image](http://url/a.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+### Strategy
 
-## Updates Since The Instructional Video
+My goal in the design of this single scrolling portfolio page was to create a minimalist and user-friendly deisgn that is also responsive to provide better accessibility and optimal viewing experience to prospective clients by optimizing it for different devices.
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+### Scope
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+For emplyoers/recuiters, I decided to provide them with a brief overview of myself to get a sense of who I am and my capabilities. In this way, they would be able to determine if they should hire me to execute their poroject, with the option to contact me should they should to.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Structure
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+1. Home
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+In this section, my desire was to design an eye-catching ladning page to attract potential clients to work with me.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+2. About
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+In this section, I aimed to provide a brief overview of myself and to allow clients to easily access and download a copy of my resume.
 
---------
+3. Portfolio
 
-Happy coding!
+In this section, I aimed to allow prospective clients to quicly access the porjects that I've done, providing a brief summary of the project, along with a link to live demo. 
+
+4. Contact
+
+In this section, I created a responsive and clean contact form to allow clients to contact me.
+
+5. Footer
+
+In the footer, I  included a short summary about me, links to my social media and a downloadable PDF version of my resume for ease of access.
+
+### Skeleton
+
+[About Wireframe](assets/wireframes/aboutwireframe.pdf)
+
+[Portfolio Wireframe](assets/wireframes/portfoliowireframe.pdf)
+
+[Contact Wireframe](assets/wireframes/contactwireframe.pdf)
+
+### Surface
+
+The grey and white colour schemes, with a touch of green were chosen to create a emotionally and visually soothing design. The colours are parallel, creating contrast through shades and tints rather than hue.
+
+## Technologies
+---
+
+1. HTML
+2. CSS
+3. Boostrap (4.5.2)
+
+## Features
+---
+This page utilises the Navbar feature in Bootstrap to create a clear menu structure allowing easy navigation of the site as it provides users with faster, more efficient access to the content they would like. The Navbar stays fixed on top of the page and also collapses according to screen size to encourage a user-friendly and  minimalist design. In addition, the scrollSpy feature in Bootstrap was implemted to automatically update navigation based on scroll position to indicate which link is currently active in the viewport.
+
+### Features left to implement
+
+In order to improve this portfolio page, I would like to implement a "Skills" section to showcase my capabilities with progress bars/circles with added animation on hover.
+
+## Testing
+---
+The user stories for both potential employer and recruiter accomplished the desired outcome of giving them a demonstration of my work and get to know about me in the different sections. In the "about" section, they are able to read a brief summary about me and to download a PDF version of my resume should they wish to. Next, they can see a portfolio of my work displayed via the project cards in the "Portfolio" section. They are able to read about each of the projects and view the live version by clicking on the "Live Preview" button. In the "Footer", they can downlad my resume as well by clicking on the Front Awesome Download icon.
+
+Users are able to contact me by filling out all the required fields in the contact form. 
+The "required" attribute is applied to the "First Name", "Last Name", "Email Address" and "Subject" fields, hence, the form will not submit if the "required" fields are not filled in. 
+The "email address" field will only accept email addresses. Therefore, when an invald address is sumbitted, there will be an error message indicating the invald data and the form will not submit.
+If all the "required" fields are filled in with valid attributes, it will take you onto a Code Institute Page congratulating you that the form has been sumbitted correctly. 
+
+All the links in the page will open in a new tab implementing 'target="_blank"' and have been manually tested to confirm that they will direct to the correct destination. 
+The resume will download to your default folder for downloads on click implementing the 'download' attribute.
+
+The navigation bar will always stay fixed in the center, on top of the page.
+The narbar will collapse into its vertical mobile layout (and show the toggler icon) at the medium (md) breakpoint of 768px.
+The scrollSpy feature functions and automatically updates links in the navigation list based on scroll position on the page.
+
+This website has been manually tested across various browsers including Chrome, Internet Explorer, Safari and FireFox. This was also done on mobile devices, such as iphone 4,5,7: Chrome and Safari, iPad, Samsung Galaxy to ensure responsivness and compatibility.
+During the testing phase, I noticed that the text on the landing page goes over the bakcground image. In order to resolve this issue, ......
+
+## Deployment
+---
+This webpage is hosted using GitHub pages, deployed directly from the master branch.
+The deployed site automatically updates simultaneously to new commits to the master branch.
+With respect to deploying the site properly on GitHub pages, the landing page must be named index.html.
+
+To run locally, you should clone this repository directly into the editor of your choice by pasting git clone https://github.com/--- into your terminal. 
+To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+
+## Credits
+---
+### Content
+The entire content in the "About" and "Portfolio" sections in this site were written by me.
+
+### Media 
+The background images were taken from Unspalsh, a stock image library.
+All the graphics in the "About" and "Portfolio" section were created using Canva, a graphic design platform.
+
+## Acknowlegements
+
+I would like to thank Guido Cecilio, my mentor from Code Institute, for guiding me through from deisgning to the deployment of my first portfolio website.
+The narvar and scrollSpy features were taken from Bootstrap.
+
+
+
