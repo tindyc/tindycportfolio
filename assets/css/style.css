@@ -8,6 +8,63 @@ body {
     overflow-x: hidden;
 }
 
+/* -----------------------Header */
+
+.offset:before {
+    display: block;
+    content: "";
+    height: 6rem;
+}
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    background: rgba(0, 0, 0, 0.6) !important;
+    padding: 20px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #1ebba3;
+}
+
+.heading-content {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.heading-content h5 {
+    font-size: 4em;
+    font-weight: 300;
+    color: #000000;
+}
+
+.heading-content h1 {
+    font-size: 5em;
+    font-weight: bolder;
+    color: #000000;
+}
+
+.heading-content p {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #000000;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
 /* ----------------------------------------Footer */
 
 footer {
