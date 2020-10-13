@@ -21,7 +21,7 @@ As an emplyer, I expect to see a demonstration of Tindy's work.
 
 As a recuiter, I expect to see a updated version of Tindy's resume.
 
-![Image](http://url/a.png)
+![Image](assets/cv/cvscreenshot.jpg)
 
 ### Strategy
 
