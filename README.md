@@ -17,7 +17,7 @@ A live demo can be found [here](www.google.coml).
 
 As an emplyer, I expect to see a demonstration of Tindy's work.
 
-![Image](http://url/a.png)
+![Image](assets/img/portfolioscreenshot.jpg)
 
 As a recuiter, I expect to see a updated version of Tindy's resume.
 
