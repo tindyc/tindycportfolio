@@ -65,6 +65,39 @@ body {
     letter-spacing: 2px;
 }
 
+/* -----------------------About Styles */
+
+.about-text-button {
+    width: 120px;
+    height: 40px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    background-color: #262525;
+}
+
+#about .btn {
+    border: 2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: #000000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#about .btn a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#about .btn:hover{
+    border: 2px solid #1ebba3;
+    cursor: pointer;
+}
+
 /* ----------------------------------------Footer */
 
 footer {
