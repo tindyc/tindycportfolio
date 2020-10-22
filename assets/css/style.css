@@ -34,7 +34,7 @@ body {
 
 .jumbotron{
     background-image: url(https://images.unsplash.com/photo-1474929743204-8f756140cb14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
-    height: 500px;
+    height: 60vh;
     background-size: cover;
     background-position: center;
     color: #ffffff;
@@ -64,9 +64,10 @@ body {
 }
 .intro {
     position: absolute;
-    top:20%;
+    top:15%;
     width: 100%;
     max-width: 100%;
+    display: block;
 }
 
 /* -----------------------About Styles */
