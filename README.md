@@ -7,7 +7,7 @@ This is my portfolio website to showcase my skills and proejcts to prospective e
 ## Demo 
 ---
 
-A live demo can be found [here](www.google.coml).
+A live demo can be found [here](https://tindyc.github.io/tindycportfolio/).
 
 ![Image](http://url/a.png)
 
