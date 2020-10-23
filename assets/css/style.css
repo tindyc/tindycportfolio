@@ -272,3 +272,6 @@ footer {
     font-size: 0.7em;
 }
 
+.jumbotron {
+    height: 45vh;
+}
