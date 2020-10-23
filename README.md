@@ -90,6 +90,7 @@ The "email address" field will only accept email addresses. Therefore, when an i
 If all the "required" fields are filled in with valid attributes, it will take you onto a Code Institute Page congratulating you that the form has been sumbitted correctly. 
 
 All the links in the page will open in a new tab implementing 'target="_blank"' and have been manually tested to confirm that they will direct to the correct destination. 
+By clicking on the "Live Preview" buttons in the portfolio section, a "Coming soon!" alert has been manually tested to confirm that the alert will pop up due to the fact that this section is displaying dummy pages for the time being.
 The resume will download to your default folder for downloads on click implementing the 'download' attribute.
 
 The navigation bar will always stay fixed in the center, on top of the page.
@@ -120,7 +121,7 @@ All the graphics in the "About" and "Portfolio" section were created using Canva
 ## Acknowlegements
 
 I would like to thank Guido Cecilio, my mentor from Code Institute, for guiding me through from deisgning to the deployment of my first portfolio website.
-The narvar and scrollSpy features were taken from Bootstrap.
+The narvar and scrollSpy, project cards features were taken from Bootstrap.
 
 
 
