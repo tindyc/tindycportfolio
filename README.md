@@ -94,11 +94,11 @@ By clicking on the "Live Preview" buttons in the portfolio section, a "Coming so
 The resume will download to your default folder for downloads on click implementing the 'download' attribute.
 
 The navigation bar will always stay fixed in the center, on top of the page.
-The narbar will collapse into its vertical mobile layout (and show the toggler icon) at the medium (md) breakpoint of 768px.
+The narbar will collapse into its vertical mobile layout (and show the toggler icon) at the medium (md) breakpoint of 992px.
 The scrollSpy feature functions and automatically updates links in the navigation list based on scroll position on the page.
 
-This website has been manually tested across various browsers including Chrome, Internet Explorer, Safari and FireFox. This was also done on mobile devices, such as iphone 4,5,7: Chrome and Safari, iPad, Samsung Galaxy to ensure responsivness and compatibility.
-During the testing phase, I noticed that the text on the landing page goes over the bakcground image. In order to resolve this issue, ......
+This website has been manually tested across various browsers including Chrome, Internet Explorer, Safari and FireFox. This was also done on mobile devices, such as iphone 5,6,7,X: Chrome and Safari, iPad, Samsung Galaxy to ensure responsivness and compatibility.
+During the testing phase, I noticed that the heading texts on the landing page goes over the bakcground image with moblie devices. In order to resolve this issue, the `font-size` property values were added in a media query.
 
 ## Deployment
 ---
