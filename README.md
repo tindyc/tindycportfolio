@@ -90,7 +90,7 @@ The "email address" field will only accept email addresses. Therefore, when an i
 If all the "required" fields are filled in with valid attributes, it will take you onto a Code Institute Page congratulating you that the form has been submitted correctly. 
 
 All the links in the page will open in a new tab implementing 'target="_blank"' and have been manually tested to confirm that they will direct to the correct destination. 
-By clicking on the "Live Preview" buttons in the portfolio section, a “Coming Soon!” alert will pop up a it is for demo purpose.
+By clicking on the "Live Preview" buttons in the portfolio section, a “Coming Soon!” message will pop up, implementing the alert method, as it is for demo purpose.
 The resume will download to your default folder for downloads on click implementing the 'download' attribute.
 
 The navigation bar will always stay fixed in the centre, on top of the page.
