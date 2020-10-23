@@ -121,7 +121,7 @@ All the graphics in the "About" and "Portfolio" section were created using Canva
 ## Acknowlegements
 
 I would like to thank Guido Cecilio, my mentor from Code Institute, for guiding me through from deisgning to the deployment of my first portfolio website.
-The narvar and scrollSpy, project cards features were taken from Bootstrap.
+The narvar, scrollSpy and project cards features were taken from Bootstrap.
 
 
 
