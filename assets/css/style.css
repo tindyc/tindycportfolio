@@ -119,6 +119,7 @@ body {
   max-width: 400px;
   position: absolute; 
   left: 10%;
+  right: 10%;
   padding: 30px;
 }
 .contactme > h2{
