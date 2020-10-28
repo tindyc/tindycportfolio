@@ -256,7 +256,6 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-    /* -----tablets-----*/
 .navbar {
     letter-spacing: 0.2rem;
     padding: 10px 0;
@@ -279,7 +278,6 @@ footer {
 }
 
 @media screen and (max-width:479px){
-    /* -----mobile device-----*/
 .navbar {
     letter-spacing: 0.1rem;
     padding: 7px 0;
@@ -302,7 +300,6 @@ footer {
 }
 
 @media screen and (max-width:320px){
-    /* -----mobile device-----*/
 .navbar {
     letter-spacing: 0.1rem;
     padding: 7px 0;
@@ -323,3 +320,4 @@ footer {
 .jumbotron {
     height: 50vh;
 }
+
