@@ -233,6 +233,27 @@ footer {
 }
 
 /* ----------------------------------------Media Query */
+@media screen and (max-width: 1024px){
+.navbar {
+    letter-spacing: 0.2rem;
+    padding: 10px 0;
+}
+
+.jumbotron h5 {
+    font-size: 5em;
+}
+
+.jumbotron h1 {
+    font-size: 5em;
+}
+
+.jumbotron p {
+    font-size: 1em;
+}
+
+.jumbotron {
+    height: 50vh;
+}
 
 @media screen and (max-width: 767px) {
     /* -----tablets-----*/
@@ -250,7 +271,11 @@ footer {
 }
 
 .jumbotron p {
-    font-size: 0.9em;
+    font-size: 1em;
+}
+
+.jumbotron {
+    height: 50vh;
 }
 
 @media screen and (max-width:479px){
@@ -274,4 +299,27 @@ footer {
 
 .jumbotron {
     height: 45vh;
+}
+
+@media screen and (max-width:320px){
+    /* -----mobile device-----*/
+.navbar {
+    letter-spacing: 0.1rem;
+    padding: 7px 0;
+}
+
+.jumbotron h5 {
+    font-size: 2em;
+}
+
+.jumbotron h1 {
+    font-size: 2em;
+}
+
+.jumbotron p {
+    font-size: 0.7em;
+}
+
+.jumbotron {
+    height: 50vh;
 }
