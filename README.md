@@ -98,7 +98,8 @@ The narbar will collapse into its vertical mobile layout (and show the toggler i
 The scrollSpy feature functions and automatically updates links in the navigation list based on scroll position on the page.
 
 This website has been manually tested across various browsers including Chrome, Internet Explorer, Safari and FireFox. This was also done on mobile devices, such as iphone 5,6,7,X: Chrome and Safari, iPad, Samsung Galaxy to ensure responsiveness and compatibility.
-During the testing phase, I noticed that the heading texts on the landing page goes over the background image with mobile devices. In order to resolve this issue, the `font-size` property values were added in a media query.
+During the testing phase, I noticed that the heading texts on the landing page goes over the background image with mobile devices. 
+In order to resolve this issue, the `font-size` and `height` property values were added in a media query.
 
 ## Deployment
 ---
