@@ -119,9 +119,10 @@ The entire content in the "About" and "Portfolio" sections in this site were wri
 The background images were taken from Unspalsh, a stock image library.
 All the graphics in the "About" and "Portfolio" section were created using Canva, a graphic design platform.
 
-## Acknowlegements
+### Acknowlegements
 
 I would like to thank Guido Cecilio, my mentor from Code Institute, for guiding me through from deisgning to the deployment of my first portfolio website.
 The narvar, scrollSpy and project cards features were taken from Bootstrap.
+The alert method to create the "Coming Soon" message were implemented using Javascript.
 
 
