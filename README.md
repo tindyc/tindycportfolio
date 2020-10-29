@@ -9,7 +9,7 @@ This is my portfolio website to showcase my skills and projects to prospective e
 
 A live demo can be found [here](https://tindyc.github.io/tindycportfolio/).
 
-![Image](assets/img/MultiDeviceScreenshot.jpg)
+![Image](assets/img/multidevicescreenshot.jpg)
 
 ## UX
 ---
