@@ -107,7 +107,7 @@ This webpage is hosted using GitHub pages, deployed directly from the master bra
 The deployed site automatically updates simultaneously to new commits to the master branch.
 With respect to deploying the site properly on GitHub pages, the landing page must be named index.html.
 
-To run locally, you should clone this repository directly into the editor of your choice by pasting git clone `https://github.com/tindyc/tindycportfolio.git` into your terminal. 
+To run locally, you should clone this repository directly into the editor of your choice by pasting ```git clone https://github.com/tindyc/tindycportfolio.git ``` into your terminal. 
 
 
 ## Credits
