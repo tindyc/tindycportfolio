@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Oswald:wght@200&display=swap');
 
 body {
@@ -34,7 +35,7 @@ body {
 
 .jumbotron{
     background-image: url(https://images.unsplash.com/photo-1474929743204-8f756140cb14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
-    height: 500px;
+    height: 80vh;
     background-size: cover;
     background-position: center;
     color: #ffffff;
@@ -233,80 +234,12 @@ footer {
 }
 
 /* ----------------------------------------Media Query */
-@media screen and (max-width: 1024px){
-.navbar {
-    letter-spacing: 0.2rem;
-    padding: 10px 0;
-}
-
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
 .jumbotron h5 {
-    font-size: 5em;
-}
-
-.jumbotron h1 {
-    font-size: 5em;
-}
-
-.jumbotron p {
     font-size: 1em;
-}
-
-.jumbotron {
-    height: 50vh;
-}
-
-@media screen and (max-width: 767px) {
-.navbar {
-    letter-spacing: 0.2rem;
-    padding: 10px 0;
-}
-
-.jumbotron h5 {
-    font-size: 3em;
-}
-
-.jumbotron h1 {
-    font-size: 3em;
-}
-
-.jumbotron p {
-    font-size: 1em;
-}
-
-.jumbotron {
-    height: 50vh;
-}
-
-@media screen and (max-width:479px){
-.navbar {
-    letter-spacing: 0.1rem;
-    padding: 7px 0;
-}
-
-.jumbotron h5 {
-    font-size: 2em;
-}
-
-.jumbotron h1 {
-    font-size: 2em;
-}
-
-.jumbotron p {
-    font-size: 0.7em;
-}
-
-.jumbotron {
-    height: 45vh;
-}
-
-@media screen and (max-width:320px){
-.navbar {
-    letter-spacing: 0.1rem;
-    padding: 7px 0;
-}
-
-.jumbotron h5 {
-    font-size: 2em;
 }
 
 .jumbotron h1 {
@@ -320,4 +253,47 @@ footer {
 .jumbotron {
     height: 50vh;
 }
+}
 
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+.jumbotron h5 {
+    font-size: 4em;
+}
+
+.jumbotron h1 {
+    font-size: 6em;
+}
+
+.jumbotron p {
+    font-size: 1em;
+}
+
+.jumbotron {
+    height: 50vh;
+}
+}
+ 
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+.jumbotron h5 {
+    font-size: 4em;
+}
+
+.jumbotron h1 {
+    font-size: 6em;
+}
+
+.jumbotron p {
+    font-size: 1em;
+}
+
+.jumbotron {
+    height: 70vh;
+}
+}
