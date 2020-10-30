@@ -71,6 +71,7 @@ The grey and white colour schemes, with a touch of green were chosen to create a
 1. HTML
 2. CSS
 3. Boostrap (4.5.2)
+4. Javascript
 
 ## Features
 ---
