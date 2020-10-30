@@ -300,7 +300,7 @@ and (max-width : 480px) {
 }
  
 /* Large Devices, Wide Screens */
-    @media only screen and (min-width : 1200px) {
+@media screen and (max-width: 1024px) and (max-height: 600px) {
 .jumbotron h5 {
     font-size: 4em;
 }
@@ -317,3 +317,21 @@ and (max-width : 480px) {
     height: 70vh;
 }
 }
+@media screen and (max-width: 1024px) and (max-height: 768px) {  
+.jumbotron h5 {
+    font-size: 4em;
+}
+
+.jumbotron h1 {
+    font-size: 6em;
+}
+
+.jumbotron p {
+    font-size: 1em;
+}
+
+.jumbotron {
+    height: 70vh;
+}
+}  
+
