@@ -290,4 +290,18 @@
          height: 70vh;
     }
 }
- 
+ /* 4K Displays (Ultra HD) ----------- */
+ @media screen and (min-width: 3840px) {
+     .jumbotron h5 {
+         font-size: 4em;
+    }
+     .jumbotron h1 {
+         font-size: 6em;
+    }
+     .jumbotron p {
+         font-size: 1em;
+    }
+     .jumbotron {
+         height: 70vh;
+    }
+}
