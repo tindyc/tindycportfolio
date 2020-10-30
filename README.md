@@ -99,7 +99,7 @@ During the testing phase, I noticed that the heading texts on the landing page g
 In order to resolve this issue, the `font-size` and `height` property values were added in a media query.
 
 ### Improvement 
-In the future, I would like to improve the performance of the site for devices, all the images need to be optimize for devices using  media queries for image swapping to a lower resolution image for devices.
+In the future, I would like to improve the performance of the site for devices, all the images need to be optimized for devices using  media queries for image swapping to a lower resolution image for devices.
 In addition, I would like to implement a "Skills" section to showcase my capabilities with progress bars/circles with added animation on hover on the portfolio section.
 
 ## Deployment
@@ -123,6 +123,6 @@ All the graphics in the "About" and "Portfolio" section were created using Canva
 
 I would like to thank Guido Cecilio, my mentor from Code Institute, for guiding me through from deisgning to the deployment of my first portfolio website.
 The narvar, scrollSpy and project cards features were taken from Bootstrap.
-The alert method to create the "Coming Soon" message were implemented using Javascript.
+The alert method to create the "Coming Soon" message were implemented using JavaScript.
 
 
