@@ -259,6 +259,33 @@
      .jumbotron {
          height: 50vh;
     }
+
+    #about img{
+        padding-top: 50%;
+    }
+}
+
+/* ----------- iPad Pro (portrait and landscape)----------- */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+           .jumbotron h5 {
+         font-size: 4em;
+    }
+     .jumbotron h1 {
+         font-size: 6em;
+    }
+     .jumbotron p {
+         font-size: 1em;
+    }
+     .jumbotron {
+         height: 50vh;
+    }
+
+    #about img{
+        padding-top: 10%;
+    }
 }
 /* Desktops and laptops ----------- */
  @media only screen and (min-width : 1224px) {
