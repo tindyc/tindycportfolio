@@ -83,7 +83,7 @@
      cursor: pointer;
 }
  #about p{
-     padding-top: 1rem;
+     padding-top: 3rem;
 }
 /* -----------------------Portfolio Styles */
  .card .btn:hover{
@@ -216,6 +216,9 @@
     }
      .jumbotron {
          height: 50vh;
+    }
+     #about p{
+     padding-top: 1rem;
     }
 }
 /* iphone X ----------- */
