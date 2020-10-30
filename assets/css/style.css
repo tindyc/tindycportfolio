@@ -1,349 +1,293 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Oswald:wght@200&display=swap');
-
-body {
-    font-family: 'Lato', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Oswald:wght@200&display=swap');
+ body {
+     font-family: 'Lato', sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     overflow-x: hidden;
 }
-
 /* -----------------------Header */
-
-.navbar {
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 0.2rem;
-    background: rgba(0, 0, 0, 0.6) !important;
-    padding: 20px 0;
+ .navbar {
+     overflow: hidden;
+     position: fixed;
+     width: 100%;
+     text-transform: uppercase;
+     font-size: 14px;
+     font-weight: 700;
+     letter-spacing: 0.2rem;
+     background: rgba(0, 0, 0, 0.6) !important;
+     padding: 20px 0;
 }
-
-.navbar-dark .navbar-nav .nav-link {
-    color: #ffffff;
-    padding-left: 20px;
+ .navbar-dark .navbar-nav .nav-link {
+     color: #ffffff;
+     padding-left: 20px;
 }
-
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link:hover{
-    color: #1ebba3;
+ .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover{
+     color: #1ebba3;
 }
-
-.jumbotron{
-    background-image: url(https://images.unsplash.com/photo-1474929743204-8f756140cb14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
-    height: 70vh;
-    background-size: cover;
-    background-position: center;
-    color: #ffffff;
-    border-radius: 0px !important;
-    z-index: 1;
+ .jumbotron{
+     background-image: url(https://images.unsplash.com/photo-1474929743204-8f756140cb14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+     height: 70vh;
+     background-size: cover;
+     background-position: center;
+     color: #ffffff;
+     border-radius: 0 !important;
+     z-index: 1;
 }
-
-.jumbotron h5 {
-    font-size: 4em;
-    font-weight: 300;
-    color: #000000;
+ .jumbotron h5 {
+     font-size: 4em;
+     font-weight: 300;
+     color: #000000;
 }
-
-.jumbotron h1 {
-    font-size: 5em;
-    font-weight: bolder;
-    color: #000000;
+ .jumbotron h1 {
+     font-size: 5em;
+     font-weight: bolder;
+     color: #000000;
 }
-
-.jumbotron p {
-    font-size: 1em;
-    text-transform: uppercase;
-    font-weight: lighter;
-    color: #000000;
-    word-spacing: 5px;
-    letter-spacing: 2px;
+ .jumbotron p {
+     font-size: 1em;
+     text-transform: uppercase;
+     font-weight: lighter;
+     color: #000000;
+     word-spacing: 5px;
+     letter-spacing: 2px;
 }
-.intro {
-    position: absolute;
-    top:15%;
-    width: 100%;
-    max-width: 100%;
+ .intro {
+     position: absolute;
+     top:15%;
+     width: 100%;
+     max-width: 100%;
 }
-
+ .intro .btn:hover{
+     border: 2px solid #1ebba3;
+     cursor: pointer;
+}
 /* -----------------------About Styles */
-
-.about-text-button {
-    width: 120px;
-    height: 40px;
-    color: #ffffff;
-    outline: none;
-    border: none;
-    background-color: #262525;
+ #about .btn {
+     border: 2px solid transparent;
+     width: 40%;
+     padding: 15px 22px;
+     background: #000000;
+     border-radius: 5px;
+     margin-top: 10px;
 }
-
-#about .btn {
-    border: 2px solid transparent;
-    width: 40%;
-    padding: 15px 22px;
-    background: #000000;
-    border-radius: 5px;
-    margin-top: 10px;
+ #about .btn a{
+     color: #ffffff;
+     text-decoration: none;
+     font-size: 1em;
+     font-weight: bold;
+     text-transform: uppercase;
 }
-
-#about .btn a{
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 1em;
-    font-weight: bold;
-    text-transform: uppercase;
+ #about .btn:hover{
+     border: 2px solid #1ebba3;
+     cursor: pointer;
 }
-
-#about .btn:hover{
-    border: 2px solid #1ebba3;
-    cursor: pointer;
+/* -----------------------Portfolio Styles */
+ .card .btn:hover{
+     border: 2px solid #1ebba3;
+     cursor: pointer;
 }
-
 /* -----------------------Contact Styles */
-
-.form-section {
-    clear: left;
-    background: url("https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=60");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
+ .form-section {
+     clear: left;
+     background: url("https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=60");
+     background-size: cover;
+     background-position: center;
+     height: 900px;
 }
-
-.contactme {
-  margin-top: 150px;
-  color: #fff;
-  background-color: rgba(60, 60, 60, 0.6);
-  max-width: 400px;
-  position: absolute; 
-  left: 10%;
-  right: 10%;
-  padding: 30px;
+ .contactme {
+     margin-top: 150px;
+     color: #fff;
+     background-color: rgba(60, 60, 60, 0.6);
+     max-width: 400px;
+     position: absolute;
+     left: 10%;
+     right: 10%;
+     padding: 30px;
 }
-.contactme > h2{
-  color: #fafafa;
-  margin-bottom: 20px;
+ .contactme > h2{
+     color: #fafafa;
+     margin-bottom: 20px;
 }
-
-.text-input{
-  background-color: transparent;
-  color: #fafafa;
-  width: 100%;
-  height:25px;
-  margin:5px 0px 20px;
-  border:1px solid #fafafa;
-  border-radius: 2px;
+ .text-input{
+     background-color: transparent;
+     color: #fafafa;
+     width: 100%;
+     height:25px;
+     margin:5px 0px 20px;
+     border:1px solid #fafafa;
+     border-radius: 2px;
 }
-
-.text-input:hover{
-  border-color: #1ebba3;
+ .text-input:hover{
+     border-color: #1ebba3;
 }
-
-#subject {
-background-color: transparent;
-color: #fafafa;
-width: 100%;
-padding: 12px;
-border:1px solid #fafafa;
-margin-top: 6px;
-margin-bottom: 16px;
-resize: vertical;
+ #subject {
+     background-color: transparent;
+     color: #fafafa;
+     width: 100%;
+     padding: 12px;
+     border:1px solid #fafafa;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical;
 }
-
-#subject:hover{
-  border-color: #1ebba3;
+ #subject:hover{
+     border-color: #1ebba3;
 }
-
-::placeholder { 
-  color: #fafafa;
+ ::placeholder {
+     color: #fafafa;
 }
-
-.submit{
-  margin-top: 20px;
-  border-radius: 2px;
-  padding-top: 15px;
-  padding-right: 32px;
-  padding-bottom: 15px;
-  padding-left: 32px;
-  text-align: center;
-  font-size: 100%;
-  background-color: #262525;
-  color: #fafafa;
-  display: block;
+ .submit{
+     margin-top: 20px;
+     border-radius: 2px;
+     padding-top: 15px;
+     padding-right: 32px;
+     padding-bottom: 15px;
+     padding-left: 32px;
+     text-align: center;
+     font-size: 100%;
+     background-color: #262525;
+     color: #fafafa;
+     display: block;
 }
-
-.submit:hover{
-    border: 2px solid #1ebba3;
-    cursor: pointer;
+ .submit:hover{
+     border: 2px solid #1ebba3;
+     cursor: pointer;
 }
-
 /* ----------------------------------------Footer */
-
-footer {
-    background-color: rgba(0, 0, 0, 0.6);
-    color: #fafafa;
-    min-height: 120px;
-    margin: 0;
-    text-align: center;
+ footer {
+     background-color: rgba(0, 0, 0, 0.6);
+     color: #fafafa;
+     min-height: 120px;
+     margin: 0;
+     text-align: center;
 }
-
-.cv-pdf i {
-    font-size: 18px;
-    color: #fafafa;
-    text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+ .cv-pdf i {
+     font-size: 18px;
+     color: #fafafa;
+     text-align: center;
+     padding-left: 5px;
+     transition: all 0.35s ease-in-out;
+     -moz-transition: all 0.35s ease-in-out;
+     -webkit-transition: all 0.35s ease-in-out;
+     -o-transition: all 0.35s ease-in-out;
 }
-
-.cv-pdf i:hover {
-    color: #1ebba3;
+ .cv-pdf i:hover {
+     color: #1ebba3;
 }
-
-.social-links {
-    padding-bottom: 15px;
+ .social-links {
+     padding-bottom: 15px;
 }
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+ .social-links li a i {
+     width: 32px;
+     height: 32px;
+     padding: 12px 0;
+     border-radius: 50%;
+     font-size: 13px;
+     line-height: 7px;
+     text-align: center;
+     color: #fafafa;
+     background: #8f8f8f;
+     transition: all 0.35s ease-in-out;
+     -moz-transition: all 0.35s ease-in-out;
+     -webkit-transition: all 0.35s ease-in-out;
+     -o-transition: all 0.35s ease-in-out;
 }
-
-.social-links li a i:hover {
-    background: #1ebba3;
+ .social-links li a i:hover {
+     background: #1ebba3;
 }
-
-#footer-details {
-    padding: 20px;
+ #footer-details {
+     padding: 20px;
 }
-
 /* ----------------------------------------Media Query */
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-.jumbotron h5 {
-    font-size: 1em;
+ @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+     .jumbotron h5 {
+         font-size: 1em;
+    }
+     .jumbotron h1 {
+         font-size: 2em;
+    }
+     .jumbotron p {
+         font-size: 0.7em;
+    }
+     .jumbotron {
+         height: 50vh;
+    }
 }
-
-.jumbotron h1 {
-    font-size: 2em;
-}
-
-.jumbotron p {
-    font-size: 0.7em;
-}
-
-.jumbotron {
-    height: 50vh;
-}
-}
-/* iphone X  ----------- */
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px)
-and (-webkit-device-pixel-ratio : 3) {
-.jumbotron h5 {
-    font-size: 2em;
-}
-
-.jumbotron h1 {
-    font-size: 3em;
-}
-
-.jumbotron p {
-    font-size: 1em;
-}
-
-.jumbotron {
-    height: 50vh;
-}
+/* iphone X ----------- */
+ @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
+     .jumbotron h5 {
+         font-size: 2em;
+    }
+     .jumbotron h1 {
+         font-size: 3em;
+    }
+     .jumbotron p {
+         font-size: 1em;
+    }
+     .jumbotron {
+         height: 50vh;
+    }
 }
 /* iphone XS Max ----------- */
-@media only screen and (min-width: 414px) and (max-width: 767px) { 
-.jumbotron h5 {
-    font-size: 2em;
+ @media only screen and (min-width: 414px) and (max-width: 767px) {
+     .jumbotron h5 {
+         font-size: 2em;
+    }
+     .jumbotron h1 {
+         font-size: 3em;
+    }
+     .jumbotron p {
+         font-size: 1em;
+    }
+     .jumbotron {
+         height: 50vh;
+    }
 }
-
-.jumbotron h1 {
-    font-size: 3em;
-}
-
-.jumbotron p {
-    font-size: 1em;
-}
-
-.jumbotron {
-    height: 50vh;
-}
-}
-
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-.jumbotron h5 {
-    font-size: 4em;
-}
-
-.jumbotron h1 {
-    font-size: 6em;
-}
-
-.jumbotron p {
-    font-size: 1em;
-}
-
-.jumbotron {
-    height: 50vh;
-}
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+     .jumbotron h5 {
+         font-size: 4em;
+    }
+     .jumbotron h1 {
+         font-size: 6em;
+    }
+     .jumbotron p {
+         font-size: 1em;
+    }
+     .jumbotron {
+         height: 50vh;
+    }
 }
 /* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
-.jumbotron h5 {
-    font-size: 4em;
+ @media only screen and (min-width : 1224px) {
+     .jumbotron h5 {
+         font-size: 4em;
+    }
+     .jumbotron h1 {
+         font-size: 6em;
+    }
+     .jumbotron p {
+         font-size: 1em;
+    }
+     .jumbotron {
+         height: 70vh;
+    }
 }
-
-.jumbotron h1 {
-    font-size: 6em;
-}
-
-.jumbotron p {
-    font-size: 1em;
-}
-
-.jumbotron {
-    height: 70vh;
-}
-}
-
 /* Large screens ----------- */
-@media only screen  and (min-width : 1824px) {
-.jumbotron h5 {
-    font-size: 4em;
+ @media only screen and (min-width : 1824px) {
+     .jumbotron h5 {
+         font-size: 4em;
+    }
+     .jumbotron h1 {
+         font-size: 6em;
+    }
+     .jumbotron p {
+         font-size: 1em;
+    }
+     .jumbotron {
+         height: 70vh;
+    }
 }
-
-.jumbotron h1 {
-    font-size: 6em;
-}
-
-.jumbotron p {
-    font-size: 1em;
-}
-
-.jumbotron {
-    height: 70vh;
-}
-}
+ 
