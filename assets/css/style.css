@@ -35,7 +35,7 @@ body {
 
 .jumbotron{
     background-image: url(https://images.unsplash.com/photo-1474929743204-8f756140cb14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
-    height: 80vh;
+    height: 70vh;
     background-size: cover;
     background-position: center;
     color: #ffffff;
@@ -235,9 +235,7 @@ footer {
 
 /* ----------------------------------------Media Query */
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen
-and (min-width : 320px)
-and (max-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 .jumbotron h5 {
     font-size: 1em;
 }
@@ -254,18 +252,17 @@ and (max-width : 480px) {
     height: 50vh;
 }
 }
-
-/* iphone X ----------- */
+/* iphone X  ----------- */
 @media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) {
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
 .jumbotron h5 {
     font-size: 2em;
 }
 
 .jumbotron h1 {
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .jumbotron p {
@@ -276,12 +273,27 @@ and (max-width : 480px) {
     height: 50vh;
 }
 }
- 
+/* iphone XS Max ----------- */
+@media only screen and (min-width: 414px) and (max-width: 767px) { 
+.jumbotron h5 {
+    font-size: 2em;
+}
+
+.jumbotron h1 {
+    font-size: 3em;
+}
+
+.jumbotron p {
+    font-size: 1em;
+}
+
+.jumbotron {
+    height: 50vh;
+}
+}
+
 /* iPads (portrait and landscape) ----------- */
-@media only screen 
-  and (min-width: 768px) 
-  and (max-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 .jumbotron h5 {
     font-size: 4em;
 }
@@ -298,9 +310,8 @@ and (max-width : 480px) {
     height: 50vh;
 }
 }
- 
-/* Large Devices, Wide Screens */
-@media screen and (max-width: 1024px) and (max-height: 600px) {
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
 .jumbotron h5 {
     font-size: 4em;
 }
@@ -317,7 +328,9 @@ and (max-width : 480px) {
     height: 70vh;
 }
 }
-@media screen and (max-width: 1024px) and (max-height: 768px) {  
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
 .jumbotron h5 {
     font-size: 4em;
 }
@@ -333,5 +346,4 @@ and (max-width : 480px) {
 .jumbotron {
     height: 70vh;
 }
-}  
-
+}
