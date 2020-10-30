@@ -76,10 +76,6 @@ The grey and white colour schemes, with a touch of green were chosen to create a
 ---
 This page utilises the Navbar feature in Bootstrap to create a clear menu structure allowing easy navigation of the site as it provides users with faster, more efficient access to the content they would like. The Navbar stays fixed on top of the page and also collapses according to screen size to encourage a user-friendly and minimalist design. In addition, the scrollSpy feature in Bootstrap was implemented to automatically update navigation based on scroll position to indicate which link is currently active in the viewport.
 
-### Features left to implement
-
-In order to improve this portfolio page, I would like to implement a "Skills" section to showcase my capabilities with progress bars/circles with added animation on hover.
-
 ## Testing
 ---
 The user stories for both potential employer and recruiter accomplished the desired outcome of giving them a demonstration of my work and get to know about me in the different sections. In the "about" section, they are able to read a brief summary about me and to download a PDF version of my resume should they wish to. Next, they can see a portfolio of my work displayed via the project cards in the "Portfolio" section. They are able to read about each of the projects and view the live version by clicking on the "Live Preview" button. In the "Footer", they can download my resume as well by clicking on the Front Awesome Download icon.
@@ -101,6 +97,10 @@ This website has been manually tested across various browsers including Chrome, 
 During the testing phase, I noticed that the heading texts on the landing page goes over the background image with mobile devices. 
 In order to resolve this issue, the `font-size` and `height` property values were added in a media query.
 
+### Improvement 
+In the future, I would like to improve the performance of the site for devices, all the images need to be optimize for devices using  media queries for image swapping to a lower resolution image for devices.
+In addition, I would like to implement a "Skills" section to showcase my capabilities with progress bars/circles with added animation on hover on the portfolio section.
+
 ## Deployment
 ---
 This webpage is hosted using GitHub pages, deployed directly from the master branch.
@@ -108,7 +108,6 @@ The deployed site automatically updates simultaneously to new commits to the mas
 With respect to deploying the site properly on GitHub pages, the landing page must be named index.html.
 
 To run locally, you should clone this repository directly into the editor of your choice by pasting ```git clone https://github.com/tindyc/tindycportfolio.git ``` into your terminal. 
-
 
 ## Credits
 ---
