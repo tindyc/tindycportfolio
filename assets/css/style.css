@@ -82,6 +82,9 @@
      border: 2px solid #1ebba3;
      cursor: pointer;
 }
+ #about p{
+     padding-top: 1rem;
+}
 /* -----------------------Portfolio Styles */
  .card .btn:hover{
      border: 2px solid #1ebba3;
@@ -287,6 +290,7 @@
         padding-top: 20%;
     }
 }
+
 /* Desktops and laptops ----------- */
  @media only screen and (min-width : 1224px) {
      .jumbotron h5 {
