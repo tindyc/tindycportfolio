@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Oswald:wght@200&display=swap');
  body {
      font-family: 'Lato', sans-serif;
      margin: 0;
@@ -218,7 +218,7 @@
          height: 50vh;
     }
      #about p{
-     padding-top: 1rem;
+         padding-top: 1rem;
     }
 }
 /* iphone X ----------- */
@@ -265,18 +265,13 @@
      .jumbotron {
          height: 50vh;
     }
-
-    #about img{
-        padding-top: 50%;
+     #about img{
+         padding-top: 50%;
     }
 }
-
 /* ----------- iPad Pro (portrait and landscape)----------- */
-@media only screen 
-  and (min-width: 1024px) 
-  and (max-height: 1366px) 
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-           .jumbotron h5 {
+ @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+     .jumbotron h5 {
          font-size: 4em;
     }
      .jumbotron h1 {
@@ -288,12 +283,10 @@
      .jumbotron {
          height: 50vh;
     }
-
-    #about img{
-        padding-top: 20%;
+     #about img{
+         padding-top: 20%;
     }
 }
-
 /* Desktops and laptops ----------- */
  @media only screen and (min-width : 1224px) {
      .jumbotron h5 {
@@ -324,16 +317,16 @@
          height: 70vh;
     }
 }
- /* 4K Displays (Ultra HD) ----------- */
+/* 4K Displays (Ultra HD) ----------- */
  @media screen and (min-width: 3840px) {
      .jumbotron h5 {
-         font-size: 4em;
+         font-size: 12em;
     }
      .jumbotron h1 {
-         font-size: 6em;
+         font-size: 16em;
     }
      .jumbotron p {
-         font-size: 1em;
+         font-size: 6em;
     }
      .jumbotron {
          height: 70vh;
