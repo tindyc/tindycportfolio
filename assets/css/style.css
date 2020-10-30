@@ -255,6 +255,27 @@ and (max-width : 480px) {
 }
 }
 
+/* iphone X ----------- */
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+.jumbotron h5 {
+    font-size: 2em;
+}
+
+.jumbotron h1 {
+    font-size: 4em;
+}
+
+.jumbotron p {
+    font-size: 1em;
+}
+
+.jumbotron {
+    height: 50vh;
+}
+}
  
 /* iPads (portrait and landscape) ----------- */
 @media only screen 
@@ -278,9 +299,8 @@ and (max-width : 480px) {
 }
 }
  
-/* Desktops and laptops ----------- */
-@media only screen
-and (min-width : 1224px) {
+/* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
 .jumbotron h5 {
     font-size: 4em;
 }
